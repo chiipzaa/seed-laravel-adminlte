@@ -5,8 +5,9 @@
 - ใช้ Laravel framework version 5.7.*
 - ใช้ AdminLte Theme และ Modify
     - รองรับการแก้ไข config แบบ ง่ายๆ ด้วยการแก้ ```config/adminlte.php```
-    - รองรับการใช้งานเว็๋บหลายภาษา ด้วยการแก้และเพิ่มภาษา ```resources/lang/vendor/adminlte```
+    - รองรับการใช้งานเว็บหลายภาษา ด้วยการแก้และเพิ่มภาษา ```resources/lang/vendor/adminlte```
     - รองรับการแก้ไข views แบบสะดวกที่ ```resources/views/vendor/adminlte```
+- มีระบบสมาชิก Authentication ให้เรียบร้อยแล้ว (ลงทะเบียน, หน้า Login, หน้า Home, หน้าแรก)
 
 ## การติดตั้ง
 - git clone project นี้ลงมาใช้งานได้เลย แก้ไข file config database ```.env``` และ ```config\database.php```
